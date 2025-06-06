@@ -1,0 +1,10 @@
+timestamp,host,source,pid,message
+2025-06-04T10:28:56.332683+00:00,LAPTOP-S1JQHFV8,login,361,PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-06-04T10:28:56.332817+00:00,LAPTOP-S1JQHFV8,login,361,PAM adding faulty module: pam_lastlog.so
+2025-06-04T10:28:56.743635+00:00,LAPTOP-S1JQHFV8,login,361,pam_unix(login:session): session opened for user abhijeet(uid=1000) by abhijeet(uid=0)
+2025-06-04T10:28:56.818535+00:00,LAPTOP-S1JQHFV8,systemd-logind,195,New session 1 of user abhijeet.
+2025-06-04T10:28:56.829916+00:00,LAPTOP-S1JQHFV8,(systemd): pam_unix(systemd-user:session),,session opened for user abhijeet(uid=1000) by abhijeet(uid=0)
+2025-06-04T10:30:16.689983+00:00,LAPTOP-S1JQHFV8,polkitd,846,Loading rules from directory /etc/polkit-1/rules.d
+2025-06-04T10:30:16.690582+00:00,LAPTOP-S1JQHFV8,polkitd,846,Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-04T10:30:16.694627+00:00,LAPTOP-S1JQHFV8,polkitd,846,"Finished loading, compiling and executing 4 rules"
+2025-06-04T10:30:16.696269+00:00,LAPTOP-S1JQHFV8,polkitd,846,Acquired the name org.freedesktop.PolicyKit1 on the system bus
