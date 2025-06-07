@@ -25,3 +25,18 @@ This Python tool helps generate incident reports by analyzing system log files (
    ```bash
    git clone https://github.com/ABHI2005jeet/incident-report-generator
    cd incident-report-generator
+# Make sure you have Python 3 installed
+python3 --version
+
+# Run the Python script with the sample log file
+python3 incident_report.py sample.log
+
+# The output will be:
+# - report.csv
+# - report.html
+## 👨‍💻 Author
+
+**Abhijeet Kumar**  
+BTech Cybersecurity Student | Python & C++ Enthusiast  
+[GitHub](https://github.com/ABHI2005jeet) • [LinkedIn](https://www.linkedin.com/in/abhijeet-kumar-357ba5329/)
+
